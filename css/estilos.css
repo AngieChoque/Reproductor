@@ -4,22 +4,27 @@ height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
+background-color: rgb(168, 133, 133);
 }
 .img-container{
-    width: 20em;
+    width:  20em;
     height: 20em;
     border-radius: 50%;
     overflow: hidden;
+ 
+
 }
 .buttons-container{
-    display: flex;
-    justify-content: space-around;
+    display:flex;
+    justify-content:space-around;
     align-items: center;
 }
 .boton{
     width: 6em;
     height: 3em;
-    background-color: rgb(177, 205, 218);
+    background-color: rgb(2, 2, 2);
+    color: honeydew;
+       border-radius: 25%;
 }
 .imagen{
     width: 100%;
@@ -32,6 +37,12 @@ align-items: center;
     animation-direction: normal;
     animation-timing-function: linear;
 }
+.tiempo{
+    width: 25em;
+    height: 4em;
+     align-items: center;
+     justify-content: center;
+}
 @keyframes thanos{
     from{
         transform: rotate(0deg);
@@ -40,3 +51,21 @@ align-items: center;
         transform: rotate(360deg);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
